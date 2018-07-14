@@ -32,17 +32,27 @@
             </div>
         </div>
     </header>
-    <div class="main__container columns is-gapless">
+    <div class="main__container">
         <div class="container is-fluid">
-            <div class="container__left column is-four-fifths ">
-                <div class="">
-                    <div class="container__breadcrumb">
-                        <ul>
-                            <li>Home</li>
-                            <li>Tu cuenta</li>
-                            <li>Tus ordenes</li>
-                            <li>Detalle de orden</li>
-                        </ul>
+            <div class="container__left columns is-gapless">
+                <div class="column is-four-fifths">
+                    <div class="breadcrumb__container">
+                        <nav class="breadcrumb has-succeed-separator" aria-label="breadcrumbs">
+                            <ul>
+                                <li>
+                                    <a class="breadcrumb__item" href="#">Home</a>
+                                </li>
+                                <li>
+                                    <a class="breadcrumb__item" href="#">Tu cuenta</a>
+                                </li>
+                                <li>
+                                    <a class="breadcrumb__item" href="#">Tus órdenes</a>
+                                </li>
+                                <li class="is-active">
+                                    <a class="breadcrumb__item" href="#" aria-current="page">Detalle de orden</a>
+                                </li>
+                            </ul>
+                        </nav>
                     </div>
                     <div class="container__title__order">
                         <img src="./assets/img/ordenes.png" alt="Lentes">
@@ -144,44 +154,44 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="container__right column">
-                <div class="container__history">
-                    <p class="history__title">Historial clinico</p>
-                </div>
-                <div class="container__description">
-                    <div class="description__title">Graduacion ojo derecho</div>
-                    <div class="description_row">
-                        <div class="row__item">
-                            <p>Espera</p>
-                            <input type="text" value="-0.05">
-                        </div>
-                        <div class="row__item">
-                            <p>Cilindro</p>
-                            <input type="text" value="-0.05">
-                        </div>
-                        <div class="row__item">
-                            <p>Eje</p>
-                            <input type="text" value="-0.05">
-                        </div>
+                <div class="container__right column">
+                    <div class="container__history">
+                        <p class="history__title">Historial clinico</p>
                     </div>
-                    <div class="description__title">Graduacion ojo izquierdo</div>
-                    <div class="description_row">
-                        <div class="row__item">
-                            <p>Espera</p>
-                            <input type="text" value="-0.05">
+                    <div class="container__description">
+                        <div class="description__title">Graduacion ojo derecho</div>
+                        <div class="description_row">
+                            <div class="row__item">
+                                <p>Espera</p>
+                                <input type="text" value="-0.05">
+                            </div>
+                            <div class="row__item">
+                                <p>Cilindro</p>
+                                <input type="text" value="-0.05">
+                            </div>
+                            <div class="row__item">
+                                <p>Eje</p>
+                                <input type="text" value="-0.05">
+                            </div>
                         </div>
-                        <div class="row__item">
-                            <p>Cilindro</p>
-                            <input type="text" value="-0.05">
+                        <div class="description__title">Graduacion ojo izquierdo</div>
+                        <div class="description_row">
+                            <div class="row__item">
+                                <p>Espera</p>
+                                <input type="text" value="-0.05">
+                            </div>
+                            <div class="row__item">
+                                <p>Cilindro</p>
+                                <input type="text" value="-0.05">
+                            </div>
+                            <div class="row__item">
+                                <p>Eje</p>
+                                <input type="text" value="-0.05">
+                            </div>
                         </div>
-                        <div class="row__item">
-                            <p>Eje</p>
-                            <input type="text" value="-0.05">
-                        </div>
+                        <h3>OPTOMETRISTA</h3>
+                        <p>Daniel Zavala</p>
                     </div>
-                    <h3>OPTOMETRISTA</h3>
-                    <p>Daniel Zavala</p>
                 </div>
             </div>
         </div>
