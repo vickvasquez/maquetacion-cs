@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+    --gris-claro: #eee;
+    --gris-medio: #ccc;
+    --color-texto: #7E7E7E;
+    --negro-medio: #00000085;
+}
+
+/*
+* Header
+*/
+
+.header {
+    /*border-bottom: 1px solid var(--gris-medio);*/
+    /*0 0px 3px rgba(0,0,0,0.2)*/
+    box-shadow: 0 0 5px #ccc;
+    padding: .9rem 0;
+}
+
+.menu__item {
+    color: var(--color-texto);
+    text-transform: uppercase;
+    margin-right: .8rem;
+    font-family: initial;
+    font-size: 14px;
+    letter-spacing: .7px;
+}
+
+.level-item:first-child {
+    border-right: 1px solid var(--negro-medio);
+    padding-right: .8rem;
+}
+
+.count__cart {
+    font-weight: 600;
+    font-size: 34px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    margin-right: .8rem;
+}
+/*
+* Coteneder derecho
+*/
+
+.container__right {
+    background: #eee;
+}
+
+/*
+* Footer
+*/
+
+.footer {
+    padding: 4rem 0;
+    background: black;
+}
+
+.footer__text {
+    color:white;
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: .8px;
+    margin: .5rem 0;
+}
